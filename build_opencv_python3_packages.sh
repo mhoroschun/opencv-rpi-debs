@@ -1,4 +1,10 @@
-
+#
+# NOTE:
+#
+#  * This script fails for me on Raspbery Pi 3 when X is running (memory
+#    exhaustion?). Before running, use Pi Configuration to disable GUI and
+#    reboot.
+#
 sudo apt-get update
 
 sudo apt-get install -y build-essential git cmake pkg-config
